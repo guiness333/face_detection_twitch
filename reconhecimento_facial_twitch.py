@@ -4,7 +4,7 @@ import time
 from livestreamer import Livestreamer
 
 session = Livestreamer()
-session.set_option("http-headers", "Client-ID=jzkbprff40iqj646a697cyrvl0zt2m6")
+session.set_option("http-headers", "***")
 streams = session.streams("https://www.twitch.tv/___")
 stream = streams['best']
 
